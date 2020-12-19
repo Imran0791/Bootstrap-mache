@@ -1,0 +1,794 @@
+/*
+Author:Razon;
+Mailling-Address:razonahmed63@gmail.com;
+*/
+
+/*
+INDEX
+1.Header
+2.Fusce at
+3.Facilisis
+4.Ante donec
+5.Blandit rhoncus
+6.placerat
+7.footer
+
+
+*/
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cstm-btn{
+    background: #ed145b;
+    color: #fff;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    
+}
+
+.read-btn{
+    
+}
+.no-padding{
+    padding: 0px;
+}
+
+h3{
+    color: #fff;
+    margin: 10px 0px;
+}
+h6{
+    color: #fff;
+    margin: 10px 0px;
+    font-size:18px;
+}
+
+/* THEME CSS*/
+
+
+/*Header section*/
+.navbar .navbar-toggler {
+    background:lightblue;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: .25rem;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 700;
+    
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-link.js-scroll-trigger.active{
+    color: #ed145b;
+    border-radius: 25px;
+    padding: 7px 28px;
+}
+/* hero */
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+   margin-top: 37px;
+}
+.title::after{
+    content: '';
+    background: #ed145b;
+    width:203px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.hero{
+    width: 100%;
+    float: left;
+    padding:100px 0px;
+    background-image: url(../../img/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-title{
+    padding-top:280px;
+    text-align: center;
+    padding-bottom:82px;
+}
+
+.hero-title h2{
+    font-size:38px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+   
+}
+.hero-title h2 span{
+    font-size:38px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+   
+}
+.hero-title h4{
+    font-size:27px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+.bdiv{
+    padding-top:70px;
+    padding-bottom: 200px;
+}
+
+
+
+
+.menu{
+    background-image: url(../../img/mac-book-bac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.menu h2{
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-top:100px;
+}
+.menu p{
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-weight:600;
+    padding-top:85px;
+    padding-bottom: 58px;
+}
+.menu h5{
+    color: #ed145b;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-bottom:70px;
+    
+}
+.img-position{
+    position: relative;
+}
+.img-center{
+    position: absolute;
+    bottom: -85px;
+}
+
+
+.services h2{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+.newsletter{
+    
+    
+    height: 385px;
+    text-align: center;
+   
+    
+}
+.newsletter h2{
+    font-size:30px;
+    color: #000;
+     font-family: 'Lato', sans-serif;
+    font-weight:300;
+    padding-bottom: 22px;
+    
+    
+    
+}
+.newsletter h5{
+    color:#757575;
+    font-size:20px;
+    text-align: center;
+}
+.newsletter p{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.services1 h3{
+    color: #ed145b;
+    font-size: 15px;
+     font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-weight: 600;
+    margin-bottom:110px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top:35%;
+}
+.newsletter .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 50px;
+    text-rendering: auto;
+    color: #ed145b;
+    
+}
+
+.imgpart{
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+.newsletter .part{
+    color:#757575;
+    font-size:13px;
+    text-align: left;
+}
+.newsletter .twoimg{
+    background: #f4f4f4;
+}
+
+
+.template{
+    background-image: url(../../img/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height:600px;
+    text-align: center;
+   
+    
+}
+.newsletter .template h3{
+    color: #fff;
+    padding-bottom:40px;
+    
+    
+}
+
+.template p{
+    padding-bottom: 56px;
+}
+
+	text-align: center;
+	line-height: 30px;
+    color: #7D7D7D;
+}
+
+
+.newsletter .prices{
+    background: #f4f4f4;
+} 
+
+ .prices .prices-title p{
+    color: aqua;
+}
+
+
+
+.prices-sec .prices-row
+{
+    padding: 80px 0px;
+}
+
+
+.prices-sec .pricing-box
+{
+    background: #5a5a5a;
+    transition: .5s;
+}
+
+.prices-sec .pricing-box:hover
+{
+    background: #ED145B;
+}
+
+.prices-sec .pricing-box .pric-mini-box
+{
+    position: relative;
+}
+
+.prices-sec .pricing-box .pric-mini-box h4 
+{
+	font-size: 40px;
+	padding-top: 25px;
+    margin: 0px;
+	color: #fff;
+}
+
+.prices-sec .pricing-box .pric-mini-box h4 span
+{
+    font-size: 20px;
+}
+
+.prices-sec .pricing-box .pric-mini-box h5
+{
+    font-size: 18px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+.prices-sec .pricing-box .price-btn
+{
+    background: #f4f4f4;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    transition: .5s;
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    color: #5a5a5a;
+}
+
+.prices-sec .pricing-box .price-btn:hover
+{
+    background: #5a5a5a;
+    color: #fff;
+}
+
+.prices-sec .pricing-box .pric-list-box
+{
+    background: #fff;
+}
+
+.prices-sec .pricing-box .pric-list-box ul
+{
+    padding-top: 50px;
+}
+
+.prices-sec .pricing-box .pric-list-box ul li
+{
+    list-style-type: none;
+}
+
+.prices-sec .pricing-box .pric-list-box ul li a
+{
+    text-decoration: none;
+    line-height: 40px;
+    color: #7D7D7D;
+}
+
+.prices-sec .pricing-box .pric-list-box .list-btn
+{
+    background: #ed145b;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    color: #fff;
+    transition: .5s;
+}
+
+.prices-sec .pricing-box .pric-list-box .list-btn:hover
+{
+    background: #f4f4f4;
+    color: #5a5a5a;
+}
+
+
+
+.color{
+    height:190px;
+    text-align: left;
+    background:#ed145b;
+    position: relative;
+}
+.color h3{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+
+.color-btn{
+    background: #fff;
+    color:#ed145b;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    position: absolute;
+    right:-105px;
+    bottom:5px;
+    
+}
+
+
+.newsletter .icon h5{
+    color: #ed145b;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.newsletter .icon p{
+    color: #808080;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+
+/*latest-update*/
+.newsletter .latest-text{
+    background: #e8e8e8;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.newsletter .latest-update .latest-text h5{
+    padding-left:5px;
+}
+.newsletter .latest-update h5{
+    padding-left:5px;
+    padding-bottom: 10px;
+}
+.newsletter .show{
+    font-weight: bold;
+    color: #ed145b;
+}
+/*HOVER*/
+.hover-img{
+    width: 100%;
+    height: 240px;;
+    overflow: hidden;
+    position: relative;
+}
+.hover-img img{
+    width: 100%
+}
+
+.newsletter .search{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #d9215d;
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+}
+.newsletter .search a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.newsletter .latest-update .fa-search{
+    font-size: 40px;
+    color: #fff;
+}
+
+.search:hover{
+    opacity: 70%;
+    transform: scale(1.5);
+}
+
+/*last-banner*/
+.newsletter .last-banner{
+    width: 100%;
+    height: auto;
+    background: url(../../img/banner3.jpg)no-repeat;
+    background-size: cover;
+}
+
+.newsletter .last-role{
+    border-bottom: 2px solid #ed145b;
+      width: 200px;
+    margin: 0 auto;
+}
+/*last-computer*/
+.newsletter .computer-content h3{
+    color: #5a5a5a;
+    font-style: italic;
+    font-weight: bold;
+}
+.newsletter .btn-three{
+    background:#ed145b;
+    color: #fff;
+    padding: 20px 50px;
+    display: block;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+/*footer*/
+
+ .newsletter .footer{ 
+      background-color: #2b2b2b;
+     width: 100%;
+     height: 100px;
+}
+
+.newsletter .footer h5{ 
+      background-color: #2b2b2b;
+     
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+    .hero-title h2{
+    font-size:36px;
+    color:#fff;
+   
+}
+    .last ul{
+    padding-top:65px;
+    padding-bottom:60px;
+    
+}
+    .lastpart p{
+    color: #fff;
+    text-align: justify;
+    padding-top:60px;
+    padding-bottom:70px;
+}
+    
+}
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top:15%;
+}
+    .newsletter p{
+    color:#fff;
+    font-size: 12px;
+    text-align: center;
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+    .hero-title{
+    padding-top:150px;
+    text-align: center;
+    padding-bottom:62px;
+}
+
+.hero-title h2{
+    font-size:28px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+   
+}
+.hero-title h2 span{
+    font-size:28px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+   
+}
+.hero-title h4{
+    font-size:17px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+    
+.color h3{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding-left:70px;
+    
+}
+    .color-btn{
+    background:#fff;
+    color:#ed145b;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    position: absolute;
+        left:-140px;
+    bottom: -50px;
+   
+    
+}
+    .prices-sec .pricing-box .price-btn
+{
+    background: #f4f4f4;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    transition: .5s;
+    position: absolute;
+    top: 125px;
+    left: 190px;
+    color: #5a5a5a;
+}
+    .img-position{
+    position: relative;
+}
+.img-center{
+    position: absolute;
+    bottom:-150px;
+    left:85px;
+}
+.imgbook{
+    margin-top: 100px;
+    margin-left: -88px;
+}
+    .menu p{
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+    font-weight:600;
+    padding-top:45px;
+   margin-bottom: 25px;
+}
+    .bdiv{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+    .newsletter .footer h5{ 
+      background-color: #fff;
+        margin-bottom: 10px;
+        font-size: 10px;
+    
+}
+.mh5 {
+    margin-top: -70px;
+}
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+    .newsletter p{
+    color:#fff;
+    font-size:15px;
+    text-align: center;
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+    .color h3{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+    .color-btn{
+    background:#fff;
+    color:#ed145b;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    position: absolute;
+        left:-200px;
+    bottom: -50px;
+   
+    
+}
+    .bdiv{
+    padding-top:70px;
+    padding-bottom:100px;
+}
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+.color h3{
+    font-size:30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+    .color-btn{
+    background:#fff;
+    color:#ed145b;
+    padding: 10px 32px;
+    margin:0 auto;
+    display: block;
+    border: none;
+    border-radius:50px;
+    position: absolute;
+        left:-150px;
+    bottom: -50px;
+   
+    
+}
+    .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 25%;
+}
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}
